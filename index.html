@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Exercise</title>
+    <style>
+        /* Center the content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Spinning animation for the pinwheel */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Style for the pinwheel */
+        .pinwheel {
+            width: 100px;
+            height: 100px;
+            animation: spin 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- Spinning pinwheel GIF -->
+        <img src="https://media3.giphy.com/media/PgiUXE5DqIWplbhdro/200w.gif?cid=6c09b9523dth6wumuk3b3n8kjoatcm55kikj0ax5g44lfzyo&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Spinning Pinwheel" class="pinwheel">
+        <!-- Title and paragraph content -->
+        <h1>Kanban Exercise</h1>
+        <p>This is a sample project for the Jira Kanban exercise.</p>
+    </div>
+</body>
+</html>
